@@ -87,5 +87,7 @@ class CatalogDataInitializer implements DataInitializer {
 		videoCatalog.save(new Disc("Oldboy", "old", Money.of(24.99, EURO), "Action/Drama/Thriller", DiscType.BLURAY));
 		videoCatalog.save(new Disc("Bill & Ted's Excellent Adventure", "bt", Money.of(29.99, EURO),
 				"Adventure/Comedy/Family", DiscType.BLURAY));
+		videoCatalog.save(new Disc("The Godfather: The complete novel", "tgf", Money.of(9.99, EURO),"Drama/Crime", DiscType.VHS));
+		videoCatalog.save(new Disc("Godzilla", "gz", Money.of(19.99, EURO), "Science Fiction/Adventure/Drama", DiscType.VHS));
 	}
 }
